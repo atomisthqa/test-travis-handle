@@ -2,7 +2,7 @@ script: echo great
 notifications:
   webhooks:
     urls:
-    - 'https://webhook-staging.atomist.services/atomist/travis'
+    - 'https://webhook-staging.atomist.services/travis'
     on_cancel: always
     on_error: always
     on_start: always
